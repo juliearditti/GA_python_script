@@ -2,6 +2,8 @@
 
 This project takes in a directory of markdown files and inserts a table of contents at the beginning of the document. 
 
+This was created during my time at General Assembly.
+
 ### Requirements: 
 - The README of the lesson should contain all the information needed for the table of contents before running the program. 
 - The heading of each section that should be in the table should be in the format "## title: description (time)". 
