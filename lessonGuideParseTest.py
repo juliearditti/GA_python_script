@@ -11,7 +11,7 @@ Created on Jul 5, 2016
 import re
 
 import os
-from CodeWarrior.Standard_Suite import files
+# from CodeWarrior.Standard_Suite import files
 
 #loop through each file in directory and find readme.md of lessons
 def findFiles(rootdir):
@@ -101,7 +101,7 @@ def parse(lines):
 if __name__ == '__main__':
 
     # hardcode what your rootdir is
-    rootdir = '/Users/juliearditti/ADI-course-materials'
+    rootdir = 'lessonDir/'
     findFiles(rootdir)
 
     
